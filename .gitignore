@@ -1,0 +1,19 @@
+# Node dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# PM2 runtime files
+pids/
+*.pid
+*.seed
+.dump
+
+# OS metadata
+.DS_Store
+Thumbs.db
