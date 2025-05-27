@@ -28,7 +28,7 @@ app.post("/webhook", (req, res) => {
   const branch = req.body.ref;
   if (branch === "refs/heads/main") {
     console.log("Push to main detected. Deploying...");
-    exec("/home/andrew/react-app/deploy.sh", (err, stdout, stderr) => {
+    exec("/root/portfolio-site/deploy.sh", (err, stdout, stderr) => {
       if (err) {
         console.error(`Deploy error: ${stderr}`);
         return res.status(500).send("Deploy failed");
