@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-webhook-server",
+  "version": "1.0.0",
+  "description": "This is a lightweight Express.js server that listens for GitHub webhook events and automatically deploys a React/Vite app when changes are pushed to the `main` branch.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewcincotta/portfolio-webhook-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewcincotta/portfolio-webhook-server/issues"
+  },
+  "homepage": "https://github.com/andrewcincotta/portfolio-webhook-server#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
